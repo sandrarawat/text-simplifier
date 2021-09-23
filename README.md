@@ -26,12 +26,15 @@ addall() is a private encapsulated method that inherits from WordInterface. [add
 
 [getGoogleEquivalent()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L87) inherits from [WordInterface](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/WordInterface.java#L12). Gets Google Equivalent of user input words. Instantiated in [ConsoleInputOutput.java](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L7)
 
-## Class: [Console Colour(enumeration)](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L7)
+## Enum: [Console Colour(enumeration)](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L7)
 METHODS:
 [colour()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L94) colour object
 String() return colour
+
 [toString()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L102) @Overrides Console Colour toString to enable Strings to change colour
+
 valueOf(java.lang.String name)Returns the enum constant of this type with the specified name.
+
 values() Returns an array containing the constants of this enum type, in the order they are declared.
 
 ## Interface:[WordInterface](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/WordInterface.java#L12)

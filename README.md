@@ -7,41 +7,42 @@ Below is a list of classes and their methods.
 
 ## Class : Runner
 METHODS:
-Main method. Initislises menu. 
-inherits scannerMethod from ConsoleInputOutput.java
+[Main method](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Runner.java#L18) initialises [menu](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Runner.java#L20)and [scannerMethod](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Runner.java#L21)
 
-## Class: ConsoleColourInput
+## Class: ConsoleColourInputOutput
 METHODS:
-snannerMethod :Initialises Thesaurus.init(); Creates scanner object. Takes user input loops using overloaded operator == to find matches to getGoogleEquivalent(); Outputs result.
+[scannerMethod](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L23) initialises Thesaurus.init(); [Creates scanner object](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L26). Takes user [input](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L31) loops over using overloaded operator == to find matches to [getGoogleEquivalent()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L33); if true outputs result.
 
 
 ## Class: Menu
-METHODS:protected final static void menu(),menu layout, initilised in Runner.java
+METHODS:
+protected final static void [menu()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Menu.java#L7),menu layout, initialised in Runner.java
 
 ## Class:	Thesaurus
 METHODS:
-Init() Method reads input from googleWordFile object. Reads input from mobyThesaurus2Fileobject. Adds words to Treeset and Treemap Respectively.
+[Init() Method](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L35) [reads input](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L38) from [googleWordFile](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L38) object. [Reads input](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L49) from mobyThesaurus2Fileobject. Adds words to Treeset and Treemap respectively.
 
-addall() the private method addAll is encapsulated. Inherited from WordInterface. Method adds words to Map that correspond to Google 1000 words.
+addall() is a private encapsulated method that inherits from WordInterface. [addAll()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L74) adds words to Map that correspond to Google 1000 words.
 
-getGoogleEquivalent() Inherited from WordInterface. Method gets Google Equivalent of user input words. Instantiated in ConsoleInputOutput.java
+[getGoogleEquivalent()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L87) inherits from [WordInterface](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/WordInterface.java#L12). Gets Google Equivalent of user input words. Instantiated in [ConsoleInputOutput.java](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L7)
 
-## Class: Console Colour(enumeration)
+## Class: [Console Colour(enumeration)](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L7)
 METHODS:
-colour() colour object
+[colour()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L94) colour object
 String() return colour
-toString() @Overrides Console Colour toString to enable Strings to change colour
+[toString()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleColour.java#L102) @Overrides Console Colour toString to enable Strings to change colour
 valueOf(java.lang.String name)Returns the enum constant of this type with the specified name.
 values() Returns an array containing the constants of this enum type, in the order they are declared.
 
-## Interface:WordInterface
+## Interface:[WordInterface](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/WordInterface.java#L12)
+Interface containing methods inherited by base class [Thesaurus](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L14)
 METHODS:
 addAll() 
 getGoogleEquivalent() 
 init() 
 
-## Interface: EnumInterface
-
+## Interface: [EnumInterface](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/EnumInterface.java#L3)
+Interface used to denote colour
 METHODS:
 public enum ConsoleColour
 public void String();

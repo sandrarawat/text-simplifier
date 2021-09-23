@@ -1,7 +1,7 @@
 
 
 # Text-Simplifier-Java
-A command line menu-driven user interface is launched in the Runner class. Text is entered in the console and replacement text is returned via Console Output. Replaced words will be coloured Red.
+This is a text simplifier application. A command line menu-driven user interface is launched in the Runner class. Text is entered in the console and replacement text is returned via Console Output. Replaced words will be coloured Red.
 
 Below is a list of classes and their methods.
 

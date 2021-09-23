@@ -5,20 +5,20 @@ This is a text simplifier application. A command line menu-driven user interface
 
 Below is a list of classes and their methods.
 
-## Class : Runner
+## Class: [Runner](https://github.com/sandrarawat/text-simplifier/blob/358d264048bfce2fffbda722916789535cb00a9e/src/ie/gmit/dip/Runner.java#L3)
 METHODS:
 [Main method](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Runner.java#L18) initialises [menu](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Runner.java#L20)and [scannerMethod](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Runner.java#L21)
 
-## Class: ConsoleColourInputOutput
+## Class: [ConsoleColourInputOutput](https://github.com/sandrarawat/text-simplifier/blob/358d264048bfce2fffbda722916789535cb00a9e/src/ie/gmit/dip/ConsoleInputOutput.java#L7)
 METHODS:
 [scannerMethod](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L23) initialises Thesaurus.init(); [Creates scanner object](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L26). Takes user [input](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L31) loops over using overloaded operator == to find matches to [getGoogleEquivalent()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/ConsoleInputOutput.java#L33); if true outputs result.
 
 
-## Class: Menu
+## Class: [Menu](https://github.com/sandrarawat/text-simplifier/blob/358d264048bfce2fffbda722916789535cb00a9e/src/ie/gmit/dip/Menu.java#L7)
 METHODS:
 protected final static void [menu()](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Menu.java#L7),menu layout, initialised in Runner.java
 
-## Class:	Thesaurus
+## Class:	[Thesaurus](https://github.com/sandrarawat/text-simplifier/blob/main/src/ie/gmit/dip/Thesaurus.java)
 METHODS:
 [Init() Method](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L35) [reads input](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L38) from [googleWordFile](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L38) object. [Reads input](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L49) from mobyThesaurus2Fileobject. Adds words to Treeset and Treemap respectively.
 

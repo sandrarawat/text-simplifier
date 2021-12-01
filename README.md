@@ -38,7 +38,7 @@ valueOf(java.lang.String name)Returns the enum constant of this type with the sp
 values() Returns an array containing the constants of this enum type, in the order they are declared.
 
 ## Interface:[WordInterface](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/WordInterface.java#L12)
-Interface containing methods inherited by base class [Thesaurus](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L14)
+Interface containing methods inherited by the subclass: [Thesaurus](https://github.com/sandrarawat/text-simplifier/blob/0c330d41263c5cadbfaa54dac013c303dc6fdac2/src/ie/gmit/dip/Thesaurus.java#L14)
 METHODS:
 addAll() 
 getGoogleEquivalent() 
